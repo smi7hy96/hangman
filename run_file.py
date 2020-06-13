@@ -1,6 +1,7 @@
 from hangman import start_game
 import time
 
+
 print("WELCOME TO HANGMAN!")
 user_play = False
 while not user_play:
@@ -12,3 +13,4 @@ while not user_play:
     else:
         print("Okay... Maybe next time :(")
         user_play = True
+
